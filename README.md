@@ -1,4 +1,4 @@
-# Music-Genre-Classification
+# Music-Genre-Classification (mini project)
 Music genre classification using audio signal processing and MLP on the GTZAN dataset.
 # Music Genre Classification Using MLP
 

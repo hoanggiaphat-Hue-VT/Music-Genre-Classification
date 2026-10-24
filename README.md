@@ -11,11 +11,11 @@ Mô hình sử dụng các đặc trưng âm thanh như MFCC, Chroma, RMS, Spect
 | Layer | Số nơ-ron | Activation |
 |---|---:|---|
 | Input Layer | Số đặc trưng đầu vào | — |
-| Hidden Layer 1 | 512 | ReLU + Dropout (0.5) |
-| Hidden Layer 2 | 256 | ReLU + Dropout (0.5) |
-| Hidden Layer 3 | 128 | ReLU + Dropout (0.5) |
-| Hidden Layer 4 | 64 | ReLU + Dropout (0.5) |
-| Hidden Layer 5 | 32 | ReLU + Dropout (0.5) |
+| Hidden Layer 1 | 512 | ReLU + Dropout (0.2) |
+| Hidden Layer 2 | 256 | ReLU + Dropout (0.2) |
+| Hidden Layer 3 | 128 | ReLU + Dropout (0.2) |
+| Hidden Layer 4 | 64 | ReLU + Dropout (0.2) |
+| Hidden Layer 5 | 32 | ReLU + Dropout (0.2) |
 | Output Layer | 10 | Softmax (Inference) |
 
 ## Cấu hình huấn luyện
